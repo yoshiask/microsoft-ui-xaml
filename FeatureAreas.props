@@ -138,6 +138,11 @@
     <FeatureScrollBarEnabled>productOnly</FeatureScrollBarEnabled>
     <FeatureScrollerEnabled>productOnly</FeatureScrollerEnabled>
     <FeatureScrollViewerEnabled>productOnly</FeatureScrollViewerEnabled>
+  </PropertyGroup>
+  <!-- Dependencies for Ribbon -->
+  <PropertyGroup Condition="Exists('InnerLoopAreas.props') And $(SolutionName) == 'MUXControlsInnerLoop' And $(FeatureRibbonEnabled) == 'true'">
+    <FeatureSplitButtonEnabled>productOnly</FeatureSplitButtonEnabled>
+    <FeatureDropDownButtonEnabled>productOnly</FeatureDropDownButtonEnabled>
   </PropertyGroup>  
   <!-- Dependencies for ResourceHelper -->
   <PropertyGroup Condition="Exists('InnerLoopAreas.props') And $(SolutionName) == 'MUXControlsInnerLoop' And $(FeatureResourceHelperEnabled) == 'true'">
@@ -234,6 +239,7 @@
     <FeatureRadioMenuFlyoutItemEnabled>true</FeatureRadioMenuFlyoutItemEnabled>
     <FeatureRatingControlEnabled>true</FeatureRatingControlEnabled>
     <FeatureRepeaterEnabled>true</FeatureRepeaterEnabled>
+    <FeatureRibbonEnabled>true</FeatureRibbonEnabled>
     <FeatureResourceHelperEnabled>true</FeatureResourceHelperEnabled>
     <FeatureScrollBarEnabled>true</FeatureScrollBarEnabled>
     <FeatureScrollPresenterEnabled>true</FeatureScrollPresenterEnabled>
