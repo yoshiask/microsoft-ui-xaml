@@ -444,6 +444,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 		InnerLoopAreas.props = InnerLoopAreas.props
 	EndProjectSection
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Ribbon", "Ribbon", "{06190677-A40C-44D0-B762-0E923448EC2E}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Ribbon", "dev\Ribbon\Ribbon.vcxitems", "{46821FEF-B0F4-4377-9749-FD2623A46E35}"
+EndProject
 Global
 	GlobalSection(SharedMSBuildProjectFiles) = preSolution
 		dev\ComboBox\ComboBox.vcxitems*{00523caf-422a-4185-9392-d374b72a019a}*SharedItemsImports = 9
@@ -496,6 +500,7 @@ Global
 		dev\RadioButtons\InteractionTests\RadioButtons_InteractionTests.projitems*{42d6e8f9-59fe-4ca5-83eb-69a7622f5742}*SharedItemsImports = 13
 		dev\TwoPaneView\APITests\TwoPaneView_APITests.projitems*{44deafbc-bb7a-4b02-aeab-29df2c2f8587}*SharedItemsImports = 13
 		dev\ResourceHelper\ResourceHelper.vcxitems*{45d41acc-2c3c-43d2-bc10-02aa73ffc7c7}*SharedItemsImports = 9
+		dev\Ribbon\Ribbon.vcxitems*{46821fef-b0f4-4377-9749-fd2623a46e35}*SharedItemsImports = 9
 		dev\ScrollPresenter\APITests\ScrollPresenter_APITests.projitems*{474b92f7-cd58-fed9-8569-9640529d1871}*SharedItemsImports = 13
 		dev\NavigationView\NavigationView_InteractionTests\NavigationView_InteractionTests.projitems*{475c3a33-637a-44dc-b789-6c2d78a75283}*SharedItemsImports = 13
 		dev\AutoSuggestBox\TestUI\AutoSuggestBox_TestUI.projitems*{48bf2dab-82b5-4705-a880-f5310fb697f9}*SharedItemsImports = 13
@@ -982,6 +987,8 @@ Global
 		{8B056B8F-C1AB-4A80-BD17-DEACE9897E6A} = {2165C785-9365-4615-B227-8E9C7444ECE1}
 		{AE308818-AF18-48BA-BF33-89779083D297} = {2165C785-9365-4615-B227-8E9C7444ECE1}
 		{74D18B1B-5F6B-4534-945B-131E8E3206FB} = {2165C785-9365-4615-B227-8E9C7444ECE1}
+		{06190677-A40C-44D0-B762-0E923448EC2E} = {67599AD5-51EC-44CB-85CE-B60CD8CBA270}
+		{46821FEF-B0F4-4377-9749-FD2623A46E35} = {06190677-A40C-44D0-B762-0E923448EC2E}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {D93836AB-52D3-4DE2-AE25-23F26F55ECED}
